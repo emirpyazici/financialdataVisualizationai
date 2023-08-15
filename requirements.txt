@@ -1,0 +1,8 @@
+requirements_content = """
+pandas
+matplotlib
+"""
+
+
+with open("/mnt/data/requirements.txt", "w") as file:
+    file.write(requirements_content)
